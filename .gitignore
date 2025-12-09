@@ -1,0 +1,70 @@
+# =========================
+# Android / Gradle
+# =========================
+.gradle/
+**/build/
+!**/src/**/build/   # por si alguna vez existe algo raro ahí (normalmente no)
+
+local.properties
+
+# APK / AAB outputs
+*.apk
+*.ap_
+*.aab
+
+# Android Studio capture folder
+captures/
+
+# External/native builds
+.externalNativeBuild/
+.cxx/
+
+# =========================
+# IntelliJ / Android Studio
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# (Opcional) Si quieres versionar Code Style/inspections, NO ignores .idea completo
+# y en su lugar ignora solo:
+# .idea/**/workspace.xml
+# .idea/**/tasks.xml
+# .idea/**/usage.statistics.xml
+# .idea/**/dictionaries
+# .idea/**/shelf
+
+# =========================
+# Kotlin / Java
+# =========================
+*.class
+hs_err_pid*
+
+# Kotlin compiler / tooling
+.kotlin/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Secrets / signing (NO subir)
+# =========================
+*.jks
+*.keystore
+key.properties
+
+# =========================
+# Editors (si aplica)
+# =========================
+.vscode/
